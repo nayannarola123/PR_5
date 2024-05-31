@@ -9,16 +9,11 @@
     
 
     <script>
-        function replaceDogWithCat(inputString) {
+        let str = "I often take a walk with my dog in the evening. His dog follows him everywhere. I don't feed my dog in the morning";
+console.log(str);
 
-         modifiedString = inputString.replace(/dog/g, "cat");
-
-        return modifiedString;
-}
-
-         let input = "I often take a walk with my dog in the evening. His dog follows him everywhere. I don't feed my dog in the morning";
-         
-        let output = replaceDogWithCat(input);
+let string = str.replaceAll("dog", "cat");
+console.log(string);
 
 console.log(output);
     </script>
